@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="https://dl.dropboxusercontent.com/u/63437940/ZombieMUD/equipment.xsl"?>
+<Database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Items>
+    <Armours>
+      <Slots>
+        <Slot>
+          <Name>Head</Name>
+          <Items>
+            <Item>
+              <Slot>Head</Slot>
+              <Name>Golden crown of frogmen</Name>
+              <AC>weak</AC>
+              <GeneralAC>pathetic</GeneralAC>
+              <Stats>
+                <Stat><Desc>+5 strength</Desc></Stat>
+                <Stat><Desc>+5 constitution</Desc></Stat>
+              </Stats>
+              <Decay>average</Decay>
+            </Item>
+            <Item>
+              <Slot>Head</Slot>
+              <Name>Green Laurels</Name>
+              <AC>weak</AC>
+              <GeneralAC>pathetic</GeneralAC>
+              <Stats>
+                <Stat><Desc>-2 constitution</Desc></Stat>
+                <Stat><Desc>+3 intelligence</Desc></Stat>
+                <Stat><Desc>+2 wisdom</Desc></Stat>
+                <Stat><Desc>+spellpoint regeneration somewhat</Desc></Stat>
+              </Stats>
+              <Decay>average</Decay>
+            </Item>
+          </Items>
+        </Slot>
+        <Slot>
+          <Name>Neck</Name>
+          <Items>
+            <Item>
+              <Slot>Neck</Slot>
+              <Name>Fishercat Torc</Name>
+              <AC>low</AC>
+              <GeneralAC>pathetic</GeneralAC>
+              <Stats>
+                <Stat><Desc>+2 constitution</Desc></Stat>
+                <Stat><Desc>+6 dexterity</Desc></Stat>
+                <Stat><Desc>-5 intelligence</Desc></Stat>
+                <Stat><Desc>-2 wisdom</Desc></Stat>
+              </Stats>
+              <SkillSpells>
+                <SkillSpell><Desc>+2 dodge</Desc></SkillSpell>
+              </SkillSpells>
+              <Decay>average</Decay>
+            </Item>
+          </Items>
+        </Slot>
+        <Slot>
+          <Name>Cloak</Name>
+          <Items>
+            <Item>
+              <Slot>Cloak</Slot>
+              <Name>The black cloak of vampiric wizardy</Name>
+              <AC>average</AC>
+              <GeneralAC>pathetic</GeneralAC>
+              <Stats>
+                <Stat><Desc>+6 strength</Desc></Stat>
+                <Stat><Desc>-1 constitution</Desc></Stat>
+                <Stat><Desc>+5 dexterity</Desc></Stat>
+                <Stat><Desc>+3 spellpoint regeneration</Desc></Stat>
+              </Stats>
+              <SkillSpells>
+                <SkillSpell><Desc>+6 attack</Desc></SkillSpell>
+              </SkillSpells>
+              <Extra>
+                  <Line><Desc>It affects the users knowledge of the skill attack.</Desc></Line>
+              </Extra>
+              <Decay>average</Decay>
+            </Item>
+            <Item>
+              <Slot>Cloak</Slot>
+              <Name>A brown cloak of protection</Name>
+              <AC>excellent</AC>
+              <GeneralAC>little</GeneralAC>
+              <Extra>
+                  <Line><Desc>It is halfling sized cloak.</Desc></Line>
+                  <Line><Desc>It increases its wearer's health.</Desc></Line>
+                  <Line><Desc>It can protect the wearer from magical missiles.</Desc></Line>
+              </Extra>
+              <Decay>average</Decay>
+            </Item>
+            <Item>
+              <Slot>Cloak</Slot>
+              <Name>A dim blue cloak</Name>
+              <AC>low</AC>
+              <Stats>
+                <Stat><Desc>+5 wisdom</Desc></Stat>
+                <Stat><Desc>+12 spellpoint regeneration</Desc></Stat>
+              </Stats>
+              <GeneralAC>pathetic</GeneralAC>
+              <Decay>average</Decay>
+            </Item>
+            <Item>
+              <Slot>Cloak</Slot>
+              <Name>A black toga</Name>
+              <AC>little</AC>
+              <GeneralAC>almost non-existent</GeneralAC>
+              <Stats>
+                <Stat><Desc>+3 dexterity</Desc></Stat>
+              </Stats>
+              <Decay>average</Decay>
+            </Item>
+          </Items>
+        </Slot>
+        <Slot>
+          <Name>Amulet</Name>
+          <Items>
+            <Item>
+              <Slot>Amulet</Slot>
+              <Name>Amulet of Eternal Fire</Name>
+              <AC>poor</AC>
+              <GeneralAC>pathetic</GeneralAC>
+              <Stats>
+                <Stat><Desc>+6 strength</Desc></Stat>
+                <Stat><Desc>+6 constitution</Desc></Stat>
+                <Stat><Desc>+6 dexterity</Desc></Stat>
+                <Stat><Desc>-5 wisdom</Desc></Stat>
+                <Stat><Desc>-2 hitpoint regeneration</Desc></Stat>
+                <Stat><Desc>+3 spellpoint regeneration</Desc></Stat>
+              </Stats>
+              <Resists>
+                <Resist><Desc>+8 fire resistance</Desc></Resist>
+              </Resists>
+              <Decay>slowly</Decay>
+            </Item>
+          </Items>
+        </Slot>
+        <Slot>
+          <Name>Torso</Name>
+          <Items>
+            <Item>
+              <Slot>Torso</Slot>
+              <Name>Weary plate</Name>
+              <AC>low</AC>
+              <GeneralAC>weak</GeneralAC>
+              <Stats>
+                <Stat><Desc>+3 strength</Desc></Stat>
+                <Stat><Desc>+pitiful hitpoint regeneration</Desc></Stat>
+              </Stats>
+              <Decay>average</Decay>
+            </Item>
+            <Item>
+              <Slot>Torso</Slot>
+              <Name>Fire Mail</Name>
+              <AC>average</AC>
+              <GeneralAC>low</GeneralAC>
+              <Stats>
+                <Stat><Desc>+6 fire resistance</Desc></Stat>
+              </Stats>
+              <Decay>average</Decay>
+            </Item>
+            <Item>
+              <Slot>Torso</Slot>
+              <Name>Elven Chainmail</Name>
+              <AC>good</AC>
+              <GeneralAC>average</GeneralAC>
+              <Stats>
+                <Stat><Desc>+good hitpoint regeneration</Desc></Stat>
+              </Stats>
+              <Decay>average</Decay>
+            </Item>
+            <Item>
+              <Slot>Torso</Slot>
+              <Name>Dark robes</Name>
+              <AC>almost non-existent</AC>
+              <GeneralAC>almost non-existent</GeneralAC>
+              <Stats>
+                <Stat><Desc>+3 wisdom</Desc></Stat>
+              </Stats>
+              <Decay>average</Decay>
+            </Item>
+          </Items>
+        </Slot>
+        <Slot>
+          <Name>Arms</Name>
+          <Items>
+            <Item>
+              <Slot>Arms</Slot>
+              <Name>Tri-Color Snake Armband</Name>
+              <AC>poor</AC>
+              <GeneralAC>pathetic</GeneralAC>
+              <Stats>
+                <Stat><Desc>+5 strength</Desc></Stat>
+                <Stat><Desc>+2 constitution</Desc></Stat>
+                <Stat><Desc>-5 intelligence</Desc></Stat>
+              </Stats>
+              <SkillSpells>
+                <SkillSpell><Desc>+strike decent</Desc></SkillSpell>
+              </SkillSpells>
+              <Decay>average</Decay>
+            </Item>
+          </Items>
+        </Slot>
+        <Slot>
+          <Name>Hands</Name>
+          <Items>
+            <Item>
+              <Slot>Hands</Slot>
+              <Name>Gloves of concentration</Name>
+              <AC>adequate</AC>
+              <GeneralAC>pathetic</GeneralAC>
+              <Stats>
+                <Stat><Desc>+15 strength</Desc></Stat>
+                <Stat><Desc>+10 constitution</Desc></Stat>
+                <Stat><Desc>-5 dexterity</Desc></Stat>
+                <Stat><Desc>-5 wisdom</Desc></Stat>
+                <Stat><Desc>+3 hitpoint regeneration</Desc></Stat>
+                <Stat><Desc>+3 spellpoint regeneration</Desc></Stat>
+              </Stats>
+              <Extra>
+                  <Line><Desc>The gloves make their wearer's concentration harder to interrupt and will sometimes help them recover from a stun.</Desc></Line>
+              </Extra>
+              <Decay>average</Decay>
+            </Item>
+          </Items>
+        </Slot>
+        <Slot>
+          <Name>Finger</Name>
+          <Items>
+            <Item>
+              <Slot>Finger</Slot>
+              <Name>A ring made of black mithril</Name>
+              <AC>little</AC>
+              <GeneralAC>almost non-existent</GeneralAC>
+              <Stats>
+                <Stat><Desc>+8 constitution</Desc></Stat>
+              </Stats>
+              <Resists>
+                <Resist><Desc>+6 asphyxiation resistance</Desc></Resist>
+                <Resist><Desc>+6 acid resistance</Desc></Resist>
+              </Resists>
+              <Extra>
+                  <Line><Desc>It emits darkness</Desc></Line>
+              </Extra>
+              <Decay>average</Decay>
+            </Item>
+          </Items>
+        </Slot>
+        <Slot>
+          <Name>Held</Name>
+          <Items>
+            <Item>
+              <Slot>Held</Slot>
+              <Name>Kz the Crystal of Thunder</Name>
+              <AC>pathetic</AC>
+              <GeneralAC>almost non-existent</GeneralAC>
+              <Stats>
+                <Stat><Desc>+constitution poorly</Desc></Stat>
+                <Stat><Desc>-intelligence poorly</Desc></Stat>
+                <Stat><Desc>-spellpoint regeneration somewhat</Desc></Stat>
+                <Stat><Desc>+hitpoint regeneration somewhat</Desc></Stat>
+              </Stats>
+              <Decay>average</Decay>
+            </Item>
+            <Item>
+              <Slot>Held</Slot>
+              <Name>Staff of Might</Name>
+              <AC>poor</AC>
+              <GeneralAC>pathetic</GeneralAC>
+              <Stats>
+                <Stat><Desc>+3 strength</Desc></Stat>
+                <Stat><Desc>+3 intelligence</Desc></Stat>
+                <Stat><Desc>+5 hitpoint regeneration</Desc></Stat>
+                <Stat><Desc>+5 spellpoint regeneration</Desc></Stat>
+              </Stats>
+              <Decay>average</Decay>
+            </Item>
+          </Items>
+        </Slot>
+        <Slot>
+          <Name>Belt</Name>
+          <Items>
+            <Item>
+              <Slot>Belt</Slot>
+              <Name>The belt of Gondor</Name>
+              <AC>excellent</AC>
+              <GeneralAC>pathetic</GeneralAC>
+              <Stats>
+                <Stat><Desc>+4 strength</Desc></Stat>
+                <Stat><Desc>+3 dexterity</Desc></Stat>
+                <Stat><Desc>+3 hitpoint regeneration</Desc></Stat>
+              </Stats>
+              <Decay>average</Decay>
+            </Item>
+          </Items>
+        </Slot>
+        <Slot>
+          <Name>Legs</Name>
+          <Items>
+            <Item>
+              <Slot>Legs</Slot>
+              <Name>Kilt of Tara</Name>
+              <AC>poor</AC>
+              <GeneralAC>pathetic</GeneralAC>
+              <Stats>
+                <Stat><Desc>+7 strength</Desc></Stat>
+                <Stat><Desc>+7 constitution</Desc></Stat>
+                <Stat><Desc>+5 hitpoint regeneration</Desc></Stat>
+              </Stats>
+              <Decay>average</Decay>
+            </Item>
+          </Items>
+        </Slot>
+        <Slot>
+          <Name>Feet</Name>
+          <Items>
+            <Item>
+              <Slot>Feet</Slot>
+              <Name>Leather boots of magician</Name>
+              <AC>low</AC>
+              <GeneralAC>pathetic</GeneralAC>
+              <Stats>
+                <Stat><Desc>+3 intelligence</Desc></Stat>
+                <Stat><Desc>+3 wisdom</Desc></Stat>
+                <Stat><Desc>+spellpoint regeneration pitifully</Desc></Stat>
+              </Stats>
+              <Extra>
+                  <Line><Desc>Stat bonuses of this item are user dependant.</Desc></Line>
+              </Extra>
+              <Decay>average</Decay>
+            </Item>
+            <Item>
+              <Slot>Feet</Slot>
+              <Name>leather boots</Name>
+              <AC>nice</AC>
+              <GeneralAC>tiny</GeneralAC>
+              <Stats>
+                <Stat><Desc>+5 strength</Desc></Stat>
+                <Stat><Desc>+3 constitution</Desc></Stat>
+              </Stats>
+              <Decay>average</Decay>
+            </Item>
+          </Items>
+        </Slot>
+      </Slots>
+      <!-- <Item>
+        <Slot></Slot>
+        <Name></Name>
+        <WC></WC>
+        <GeneralWC></GeneralWC>
+        <Stats>
+          <Stat><Desc></Desc></Stat>
+        </Stats>
+        <Decay></Decay>
+        <Extra>
+            <Line><Desc></Desc></Line>
+        </Extra>
+      </Item> -->
+    </Armours>
+    <Weapons>
+      <Item>
+        <Slot>2h Bow</Slot>
+        <Name>'Jawellyn' the bow of deadly accuracy (2h)</Name>
+        <WC>magnificent</WC>
+        <GeneralWC>almost non-existent</GeneralWC>
+        <Stats />
+        <Decay>average</Decay>
+        <Extra>
+            <Line><Desc>It is very easy to aim.</Desc></Line>
+            <Line><Desc>It does more damage than class indicates.</Desc></Line>
+        </Extra>
+      </Item>
+      <Item>
+        <Slot>2h Bow</Slot>
+        <Name>A heavy crossbow, equipped with a metal prod (2h)</Name>
+        <WC>ILLEGAL</WC>
+        <GeneralWC>little</GeneralWC>
+        <Stats />
+        <Decay>average</Decay>
+        <Extra />
+      </Item>
+      <Item>
+        <Slot>2h Bow</Slot>
+        <Name>An arbalest, mounted on the balcony railing (2h)</Name>
+        <Name>A heavy crossbow, equipped with a metal prod (2h)</Name>
+        <WC>ILLEGAL</WC>
+        <GeneralWC>little</GeneralWC>
+        <Stats />
+        <Decay>average</Decay>
+        <Extra />
+      </Item>
+      <Item>
+        <Slot>2h Bow</Slot>
+        <Name>An arbalest, mounted on top of the bastion wall (2h)</Name>
+        <Name>A heavy crossbow, equipped with a metal prod (2h)</Name>
+        <WC>ILLEGAL</WC>
+        <GeneralWC>little</GeneralWC>
+        <Stats />
+        <Decay>average</Decay>
+        <Extra />
+      </Item>
+      <Item>
+        <Slot>2h Bow</Slot>
+        <Name>An elvish war bow (2h)</Name>
+        <WC>magnificent</WC>
+        <GeneralWC>almost non-existent</GeneralWC>
+        <Stats />
+        <Decay>average</Decay>
+        <Extra>
+            <Line><Desc>The elven war bow is more effective in he hands of an elf.</Desc></Line>
+            <Line><Desc>The elven war bow is less powerful in the hands of a dwarf.</Desc></Line>
+        </Extra>
+      </Item>
+      <Item>
+        <Slot>2h Bow</Slot>
+        <Name>An exquisite stave of a recurve bow (2h)</Name>
+        <WC>magnificent</WC>
+        <GeneralWC>almost non-existent</GeneralWC>
+        <Stats />
+        <Decay>fast</Decay>
+        <Extra>
+            <Line><Desc>This is a divine artifact--known as Atrakis, the Everlasting Wind--graced by the touch of Xellios himself.</Desc></Line>
+            <Line><Desc>As a god-blessed weapon this bow can be used only by those who have accepted Xellios as their deity.</Desc></Line>
+            <Line><Desc>If the archer is seen worthy the bow will manifest a string, and its own arrows but their power is always subjective to the piety and the skill of the archer. Each manifested arrow will drain a very small amount of magical energy from the archer.</Desc></Line>
+        </Extra>
+      </Item>
+      <Item>
+        <Slot>2h Bow</Slot>
+        <Name>The longbow, 'Quarter of Midnight' (2h) </Name>
+        <WC>magnificent</WC>
+        <GeneralWC>almost non-existent</GeneralWC>
+        <Stats>
+          <Stat><Desc>+dexterity poorly</Desc></Stat>
+          <Stat><Desc>+constitution poorly</Desc></Stat>
+        </Stats>
+        <Decay>average</Decay>
+        <Extra>
+            <Line><Desc>The bow loads and fires quickly.</Desc></Line>
+            <Line><Desc>The bow is easy to fire and less tiring to use.</Desc></Line>
+            <Line><Desc>The size of the bow makes it unusable by the weak.</Desc></Line>
+        </Extra>
+      </Item>
+      <Item>
+        <Slot>2h Bow</Slot>
+        <Name>A long bow (2h)</Name>
+        <WC>magnificent</WC>
+        <GeneralWC>almost non-existent</GeneralWC>
+        <Stats />
+        <Decay>average</Decay>
+        <Extra />
+      </Item>
+      <Item>
+        <Slot>2h Axe</Slot>
+        <Name>Axe of Thunder (2h)</Name>
+        <WC>magnificent</WC>
+        <GeneralWC>awesome</GeneralWC>
+        <HitDamages>
+          <HitDamage><Desc>+hit slightly</Desc></HitDamage>
+          <HitDamage><Desc>+damage good amount</Desc></HitDamage>
+        </HitDamages>
+        <Preference>electric strongly</Preference>
+        <Stats>
+          <Stat><Desc></Desc></Stat>
+        </Stats>
+        <Decay>very fast</Decay>
+        <Extra>
+            <Line><Desc></Desc></Line>
+        </Extra>
+      </Item>
+      <Item>
+        <Slot>2h Sword</Slot>
+        <Name>Sword of Thunder (2h)</Name>
+        <WC>awesome</WC>
+        <GeneralWC>awesome</GeneralWC>
+        <HitDamages>
+          <HitDamage><Desc>+hit slightly</Desc></HitDamage>
+          <HitDamage><Desc>+damage good amount</Desc></HitDamage>
+        </HitDamages>
+        <Preference>electric strongly</Preference>
+        <Stats>
+          <Stat><Desc></Desc></Stat>
+        </Stats>
+        <Decay>very fast</Decay>
+        <Extra>
+            <Line><Desc></Desc></Line>
+        </Extra>
+      </Item>
+      <Item>
+        <Slot>1h Dagger</Slot>
+        <Name>A sharp dagger (1h)</Name>
+        <WC>impressive</WC>
+        <GeneralWC>poor</GeneralWC>
+        <Stats>
+          <Stat><Desc></Desc></Stat>
+        </Stats>
+        <Decay>average</Decay>
+        <Extra>
+            <Line><Desc></Desc></Line>
+        </Extra>
+      </Item>
+      <Item>
+        <Slot>2h Staff</Slot>
+        <Name>A blue oaken staff (2h)</Name>
+        <WC>impressive</WC>
+        <GeneralWC>mediocre</GeneralWC>
+        <HitDamages>
+          <HitDamage><Desc>+hit poorly</Desc></HitDamage>
+        </HitDamages>
+        <Preference>electric a bit</Preference>
+        <Decay>average</Decay>
+        <Extra>
+            <Line><Desc>This weapon is easy to use.</Desc></Line>
+        </Extra>
+      </Item>
+      <Item>
+        <Slot>1h Sword</Slot>
+        <Name>A wolven scimitar (1h)</Name>
+        <WC>good</WC>
+        <GeneralWC>mediocre</GeneralWC>
+        <Preference>magical a tiny bit</Preference>
+        <Decay>average</Decay>
+      </Item>
+      <Item>
+        <Slot>2h Axe</Slot>
+        <Name>Ebon Battleaxe (2h)</Name>
+        <WC>great</WC>
+        <GeneralWC>nice</GeneralWC>
+        <Decay>average</Decay>
+      </Item>
+      <!-- <Item>
+        <Slot></Slot>
+        <Name></Name>
+        <WC></WC>
+        <GeneralWC></GeneralWC>
+        <HitDamages>
+          <HitDamage><Desc></Desc></HitDamage>
+        </HitDamages>
+        <Preference></Preference>
+        <Stats>
+          <Stat><Desc></Desc></Stat>
+        </Stats>
+        <Decay></Decay>
+        <Extra>
+            <Line><Desc></Desc></Line>
+        </Extra>
+      </Item> -->
+    </Weapons>
+  </Items>
+</Database>
