@@ -52,6 +52,56 @@
               </SkillSpells>
               <Decay>average</Decay>
             </Item>
+            <Item>
+              <Slot>Neck</Slot>
+              <Name>Blemished silver prayer beads</Name>
+              <AC>negative</AC>
+              <GeneralAC>negative</GeneralAC>
+              <Stats>
+                <Stat><Desc>+1 strength</Desc></Stat>
+                <Stat><Desc>+3 constitution</Desc></Stat>
+                <Stat><Desc>+1 dexterity</Desc></Stat>
+                <Stat><Desc>+3 hitpoint regeneration</Desc></Stat>
+              </Stats>
+              <Decay>average</Decay>
+            </Item>
+            <Item>
+              <Slot>Neck</Slot>
+              <Name>A blemished orichalcum medallion</Name>
+              <AC>negative</AC>
+              <GeneralAC>negative</GeneralAC>
+              <Stats>
+                <Stat><Desc>+1 dexterity</Desc></Stat>
+                <Stat><Desc>+5 intelligence</Desc></Stat>
+                <Stat><Desc>-5 wisdom</Desc></Stat>
+                <Stat><Desc>+3 charisma</Desc></Stat>
+                <Stat><Desc>+7 spellpoint regeneration</Desc></Stat>
+              </Stats>
+              <Decay>average</Decay>
+            </Item>
+            <Item>
+              <Slot>Neck</Slot>
+              <Name>A ghastly gold medallion</Name>
+              <AC>negative</AC>
+              <GeneralAC>negative</GeneralAC>
+              <Stats>
+                <Stat><Desc>+1 constitution</Desc></Stat>
+                <Stat><Desc>+1 charisma</Desc></Stat>
+              </Stats>
+              <Decay>average</Decay>
+            </Item>
+            <Item>
+              <Slot>Neck</Slot>
+              <Name> A filthy cuir bouilli pixane</Name>
+              <AC>negative</AC>
+              <GeneralAC>negative</GeneralAC>
+              <Stats>
+                <Stat><Desc>-3 strength</Desc></Stat>
+                <Stat><Desc>+10 wisdom</Desc></Stat>
+                <Stat><Desc>+7 spellpoint regeneration</Desc></Stat>
+              </Stats>
+              <Decay>average</Decay>
+            </Item>
           </Items>
         </Slot>
         <Slot>
@@ -109,6 +159,32 @@
               </Stats>
               <Decay>average</Decay>
             </Item>
+            <Item>
+              <Slot>Cloak</Slot>
+              <Name>A smudged wyvernskin mantle</Name>
+              <AC>low</AC>
+              <Stats>
+                <Stat><Desc>+1 constitution</Desc></Stat>
+                <Stat><Desc>-3 dexterity</Desc></Stat>
+                <Stat><Desc>+3 intelligence</Desc></Stat>
+                <Stat><Desc>+5 charisma</Desc></Stat>
+                <Stat><Desc>+2 spellpoint regeneration</Desc></Stat>
+              </Stats>
+              <GeneralAC>pathetic</GeneralAC>
+              <Decay>average</Decay>
+            </Item>
+            <Item>
+              <Slot>Cloak</Slot>
+              <Name>A ghastly silk mantle</Name>
+              <AC>adequate</AC>
+              <Stats>
+                <Stat><Desc>+1 wisdom</Desc></Stat>
+                <Stat><Desc>+5 charisma</Desc></Stat>
+                <Stat><Desc>+2 spellpoint regeneration</Desc></Stat>
+              </Stats>
+              <GeneralAC>tiny</GeneralAC>
+              <Decay>average</Decay>
+            </Item>
           </Items>
         </Slot>
         <Slot>
@@ -145,6 +221,28 @@
               <Stats>
                 <Stat><Desc>+3 strength</Desc></Stat>
                 <Stat><Desc>+pitiful hitpoint regeneration</Desc></Stat>
+              </Stats>
+              <Decay>average</Decay>
+            </Item>
+            <Item>
+              <Slot>Torso</Slot>
+              <Name>A worn wyvernskin lamellar</Name>
+              <AC>good</AC>
+              <GeneralAC>decent</GeneralAC>
+              <Stats>
+                <Stat><Desc>+3 intelligence</Desc></Stat>
+                <Stat><Desc>+9 spellpoint regeneration</Desc></Stat>
+              </Stats>
+              <Decay>average</Decay>
+            </Item>
+            <Item>
+              <Slot>Torso</Slot>
+              <Name>A dusty silver splint mail</Name>
+              <AC>good</AC>
+              <GeneralAC>average</GeneralAC>
+              <Stats>
+                <Stat><Desc>+5 intelligence</Desc></Stat>
+                <Stat><Desc>+9 spellpoint regeneration</Desc></Stat>
               </Stats>
               <Decay>average</Decay>
             </Item>
@@ -198,6 +296,31 @@
               </SkillSpells>
               <Decay>average</Decay>
             </Item>
+            <Item>
+              <Slot>Arms</Slot>
+              <Name>A nice orichalcum bracer</Name>
+              <AC>pathetic</AC>
+              <GeneralAC>almost non-existent</GeneralAC>
+              <Stats>
+                <Stat><Desc>+3 constitution</Desc></Stat>
+                <Stat><Desc>+5 intelligence</Desc></Stat>
+                <Stat><Desc>-5 wisdom</Desc></Stat>
+                <Stat><Desc>+5 spellpoint regeneration</Desc></Stat>
+              </Stats>
+              <Decay>average</Decay>
+            </Item>
+            <Item>
+              <Slot>Arms</Slot>
+              <Name>Antique wyvernskin vambraces</Name>
+              <AC>low</AC>
+              <GeneralAC>pathetic</GeneralAC>
+              <Stats>
+                <Stat><Desc>+1 dexterity</Desc></Stat>
+                <Stat><Desc>+3 charisma</Desc></Stat>
+                <Stat><Desc>+5 spellpoint regeneration</Desc></Stat>
+              </Stats>
+              <Decay>average</Decay>
+            </Item>
           </Items>
         </Slot>
         <Slot>
@@ -221,6 +344,18 @@
               </Extra>
               <Decay>average</Decay>
             </Item>
+            <Item>
+              <Slot>Hands</Slot>
+              <Name>Rotting silk long gloves</Name>
+              <AC>low</AC>
+              <GeneralAC>almost non-existent</GeneralAC>
+              <Stats>
+                <Stat><Desc>+5 intelligence</Desc></Stat>
+                <Stat><Desc>+3 wisdom</Desc></Stat>
+                <Stat><Desc>+1 spellpoint regeneration</Desc></Stat>
+              </Stats>
+              <Decay>average</Decay>
+            </Item>
           </Items>
         </Slot>
         <Slot>
@@ -241,6 +376,31 @@
               <Extra>
                   <Line><Desc>It emits darkness</Desc></Line>
               </Extra>
+              <Decay>average</Decay>
+            </Item>
+            <Item>
+              <Slot>Finger</Slot>
+              <Name>A grimy gold ring</Name>
+              <AC>negative</AC>
+              <GeneralAC>negative</GeneralAC>
+              <Stats>
+                <Stat><Desc>+1 constitution</Desc></Stat>
+                <Stat><Desc>+1 wisdom</Desc></Stat>
+                <Stat><Desc>+1 charisma</Desc></Stat>
+              </Stats>
+              <Decay>average</Decay>
+            </Item>
+            <Item>
+              <Slot>Finger</Slot>
+              <Name>An antique silver bloodstone ring</Name>
+              <AC>negative</AC>
+              <GeneralAC>negative</GeneralAC>
+              <Stats>
+                <Stat><Desc>+3 strength</Desc></Stat>
+                <Stat><Desc>+1 intelligence</Desc></Stat>
+                <Stat><Desc>-3 charisma</Desc></Stat>
+                <Stat><Desc>+pathetically hitpoint regeneration</Desc></Stat>
+              </Stats>
               <Decay>average</Decay>
             </Item>
           </Items>
@@ -291,6 +451,30 @@
               </Stats>
               <Decay>average</Decay>
             </Item>
+            <Item>
+              <Slot>Belt</Slot>
+              <Name>A well-crafted silk belt</Name>
+              <AC>low</AC>
+              <GeneralAC>almost non-existent</GeneralAC>
+              <Stats>
+                <Stat><Desc>+8 dexterity</Desc></Stat>
+                <Stat><Desc>-8 charisma</Desc></Stat>
+                <Stat><Desc>+3 hitpoint regeneration</Desc></Stat>
+              </Stats>
+              <Decay>average</Decay>
+            </Item>
+            <Item>
+              <Slot>Belt</Slot>
+              <Name>A well-crafted silk belt</Name>
+              <AC>negative</AC>
+              <GeneralAC>negative</GeneralAC>
+              <Stats>
+                <Stat><Desc>+3 intelligence</Desc></Stat>
+                <Stat><Desc>+1 wisdom</Desc></Stat>
+                <Stat><Desc>+6 spellpoint regeneration</Desc></Stat>
+              </Stats>
+              <Decay>average</Decay>
+            </Item>
           </Items>
         </Slot>
         <Slot>
@@ -305,6 +489,17 @@
                 <Stat><Desc>+7 strength</Desc></Stat>
                 <Stat><Desc>+7 constitution</Desc></Stat>
                 <Stat><Desc>+5 hitpoint regeneration</Desc></Stat>
+              </Stats>
+              <Decay>average</Decay>
+            </Item>
+            <Item>
+              <Slot>Legs</Slot>
+              <Name>Well-crafted orichalcum chausses</Name>
+              <AC>decent</AC>
+              <GeneralAC>little</GeneralAC>
+              <Stats>
+                <Stat><Desc>+2 intelligence</Desc></Stat>
+                <Stat><Desc>+7 spellpoint regeneration</Desc></Stat>
               </Stats>
               <Decay>average</Decay>
             </Item>
